@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- define repositories -->
+<remote name="gaia-local" fetch="https://github.com/gaia-local/"/>
+<remote name="my-gaia" fetch="https://github.com/gasolin/"/>
+
+<!-- specify revisions sync-j means download threads number  -->
+<default revision="refs/heads/master" remote="my-gaia" sync-j="4"/>
+
+<project remote="my-gaia" name="gaia" path="."/>
+<project remote="gaia-local" name="gaia-distribution" path="distribution"/>
+
+</manifest>
