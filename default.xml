@@ -6,9 +6,9 @@
 <remote name="my-gaia" fetch="https://github.com/gasolin/"/>
 
 <!-- specify revisions sync-j means download threads number  -->
-<default revision="refs/heads/master" remote="my-gaia" sync-j="4"/>
+<default sync-j="4"/>
 
-<project remote="my-gaia" name="gaia" path="."/>
-<project remote="gaia-local" name="gaia-distribution" path="distribution"/>
+<project remote="my-gaia" name="gaia" revision="refs/heads/master" path="."/>
+<project remote="gaia-local" name="gaia-distribution" revision="refs/heads/master" path="distribution"/>
 
 </manifest>

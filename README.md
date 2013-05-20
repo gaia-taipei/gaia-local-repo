@@ -23,8 +23,6 @@ sync repo
     $ repo sync
 
 
-Refer to
-
 ## Reference
 
 * Based on https://github.com/gasolin/gaia-custom-repo.git
