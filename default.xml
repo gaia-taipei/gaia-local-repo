@@ -3,7 +3,7 @@
 
 <!-- define repositories -->
 <remote name="gaia-local" fetch="https://github.com/gaia-local/"/>
-<remote name="my-gaia" fetch="https://github.com/mozilla-b2g/gaia"/>
+<remote name="my-gaia" fetch="https://github.com/mozilla-b2g/"/>
 
 <!-- specify revisions sync-j means download threads number  -->
 <default sync-j="4"/>
