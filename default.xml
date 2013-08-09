@@ -3,12 +3,12 @@
 
 <!-- define repositories -->
 <remote name="gaia-local" fetch="https://github.com/gaia-local/"/>
-<remote name="my-gaia" fetch="https://github.com/mozilla-b2g/"/>
+<remote name="upstream" fetch="https://github.com/mozilla-b2g/"/>
 
 <!-- specify revisions sync-j means download threads number  -->
 <default sync-j="4"/>
 
-<project remote="my-gaia" name="gaia" revision="refs/heads/master" path="."/>
+<project remote="upstream" name="gaia" revision="refs/heads/master" path="."/>
 <project remote="gaia-local" name="gaia-distribution" revision="refs/heads/tablet-master" path="distribution"/>
 
 </manifest>
