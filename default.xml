@@ -10,5 +10,6 @@
 
 <project remote="upstream" name="gaia" revision="refs/heads/master" path="."/>
 <project remote="gaia-local" name="gaia-distribution" revision="refs/heads/tablet-master" path="distribution"/>
-
+<project remote="upstream" name="Gaia-UI-Building-Blocks" revision="refs/heads/v1" path="shared/v1"/>
+<project remote="upstream" name="Gaia-UI-Building-Blocks" revision="refs/heads/v2" path="shared/v2"/>
 </manifest>
